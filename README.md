@@ -51,6 +51,7 @@
 
 
 ### Installation :
+Open the terminal and enter the following commands : 
 ```bash
    git clone https://https://github.com/Aditya-Sakpal/AIHUB-ASSESTMENT.git
 ```
