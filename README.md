@@ -1,102 +1,62 @@
 <p align="center">
-  <img alt="Coding" width="300" src="https://firebasestorage.googleapis.com/v0/b/giga-chat-9416b.appspot.com/o/aiImages%2Fgiga-chat-logo.png?alt=media&token=da4e1855-70f0-4836-83e5-8a9ec15ba5ac" >
+  <img alt="Coding" width="300" src="https://github.com/user-attachments/assets/bc502623-98a7-43fc-8b2d-f995671072d8" >
 </p>
 
 
-### GIGA-CHAT is an AI-powered real-time ai-assisted chat application designed for seamless peer-to-peer and group communication
+# AI-HUB Assesment
 
-### Current Version (Mobile view under progress): https://www.giga-chat.tech/
+### Current Version : https://www.giga-chat.tech/
 
 ### Following are some main features :  
 
-**.Peer to Peer communication**
-<img alt="Coding" align="left" width="300" src="https://firebasestorage.googleapis.com/v0/b/giga-chat-9416b.appspot.com/o/aiImages%2Fpeer_to_peer_chatting.png?alt=media&token=ebe525ce-7120-4679-83fc-e30e51e5cb39" >
+**.Compressing PDFs**
+<img alt="Coding" align="left" width="200" src="https://github.com/user-attachments/assets/2bc85457-7d49-42a8-98e1-34c9db2fb8f3" >
 
-- Enables peer to peer communication via socket.io , also provides real-time suggestions by taking previous as context using models like gpt-3.5-turbo(fine-tuned),claude and gemini-pro . 
-- GIGA-CHAT also display other basic stuff like display other person's pfp, online/offline status , etc. 
-- Users can search their friends profile through search bar and message them .
-- Additionally the chats are displayed from newest to oldest.
-- Users can send files and voice notes in real time via socket.io
-- All the media data is stored in firebase storage.
-- Users can delete the user from friend list as well.
-- Voice Calling using VOIP is under development.
+- Quickly reduce the size of your PDF files without losing quality.
+- Efficiently compress large PDFs for easier storage and sharing.
+- Maintain the integrity of your documents while saving space.
+- Achieve faster upload and download speeds with smaller PDF files.
+- Our advanced compression technology ensures optimal file size reduction.
+- 
 
-**.Group Chatting**
-<img alt="Coding" align="right" width="300" src="https://firebasestorage.googleapis.com/v0/b/giga-chat-9416b.appspot.com/o/aiImages%2Fgroup-chatting.png?alt=media&token=5bdf1b7e-c18d-4604-831e-1a8c126866bf" >
+**.Transforming PDFs to Another Format or Vice Versa**
+<img alt="Coding" align="right" width="200" src="https://github.com/user-attachments/assets/c025d0d0-3afd-4988-a8b1-43eed7cec928" >
 
-- Enables users to create groups with their friends .
-- Users can set their desired group name and pfp.
-- The group creator can assign the admin roles accordingly.
-- Users can set their desired group quote.
-- Users can join the group externally by searching the group's name in the search bar and sending the request
-- Users can also leave the group .
+- Seamlessly convert your PDFs to various formats such as Word, Excel, and more.
+- Transform other file types into high-quality PDFs with our easy-to-use tools.
+- Preserve the layout and formatting of your documents during conversion.
+- Enjoy fast and accurate conversions for all your document needs.
+- Convert PDFs for compatibility with different software and devices effortlessly.
 
-**.Archive Chatting**
-<img alt="Coding" align="left" width="300" src="https://firebasestorage.googleapis.com/v0/b/giga-chat-9416b.appspot.com/o/aiImages%2Farchive-chatting.png?alt=media&token=7a94554d-c9c7-45fd-aa58-c74137bf2f37" >
+**.Editing PDFs**
+<img alt="Coding" align="left" width="200" src="https://github.com/user-attachments/assets/b9624157-243f-40a0-ad2f-54ab4fca549a" >
 
-- Users can archive the chats from the allchats section .
-- Users can unarchive the chats if they wish .
-- Users get all the functinalities same as normal chats .
-- Users need set a password initially when first time entering the archive section.
-- Next time they are trying to access the archived chats section they need to enter the password
-- Users can't access the archive section if they don't have any chats archived
-- Voice Calling using VOIP is under development.
-
-**.Ask AI Chatting**
-<img alt="Coding" align="right" width="300" src="https://firebasestorage.googleapis.com/v0/b/giga-chat-9416b.appspot.com/o/aiImages%2Fask_ai.png?alt=media&token=2e5489cb-c3d2-47a9-ab66-d38fdbb4aac0" >
-
-- Users can ask their queires to different ai models.
-- Available models are gpt-3.5-turbo,claude,mistral-7b,gemm-7b,llama2 and phi-2
-- Users can switch between ai models according to their need.
-- An image is generated relevant to the query being asked .
-- Record is been maintained of every being asked according to the date and timestamp
-- Users can delete their chats from the history if they want.
-
-**.Video Call Meetings**
-<img alt="Coding" align="left" width="300" src="https://firebasestorage.googleapis.com/v0/b/giga-chat-9416b.appspot.com/o/aiImages%2Fvideo_calling.png?alt=media&token=efd39c2d-9ede-4a93-ad4c-a17f359ff152" >
-
-- Users can create a video call meetings with their friends.
-- Meeting link is being sent in real time.
-- Can join externally by entering the code .
-- Users can send text messages within the meeting.
-- Users can enable/disable their camera and microphone .
-- Record of join and leaving time is been maintained for every meeting .
-- Users can also view the list of members in the meetings.
-- Screen sharing is also available.
-- Integrated with ZegoCloud
+- Easily modify text, images, and other elements within your PDFs.
+- Add annotations, comments, and highlights to your PDF documents.
+- Reorder, delete, or insert pages to customize your PDF files.
+- Enhance your PDFs with various editing tools for a professional touch.
+- Make quick adjustments and save changes to your PDFs with our user-friendly interface.
 
 ### Tech Stack Used : 
-<img alt="Coding" align="center" width="500" src="https://firebasestorage.googleapis.com/v0/b/giga-chat-9416b.appspot.com/o/aiImages%2Ftechstackicons.png?alt=media&token=a84e713d-481c-4efe-8890-edb9f85e29f6" >
+<img alt="Coding" align="center" width="400" src="https://github.com/user-attachments/assets/96010a32-d44a-4ff9-839e-b5772eb836e4" >
 
 ### System Design :
-![diagram-export-5-6-2024-3_00_36-PM](https://github.com/Aditya-Sakpal/GIGA_CHAT_FRONTEND/assets/112710558/cb875573-cfdf-4337-bb90-ad9983e6085e)
+<img alt="Coding" align="center" width="800" src="https://github.com/user-attachments/assets/17048e9d-a33a-4ecb-896d-4b7c45f7e62f" >
 
 ### UI ScreenShots
-![image](https://github.com/Aditya-Sakpal/GIGA_CHAT_FRONTEND/assets/112710558/9d3666dc-cc42-433d-aa4d-bc3d927e5a08)
-![image](https://github.com/Aditya-Sakpal/GIGA_CHAT_FRONTEND/assets/112710558/76faf6b9-239c-42b4-8660-8962cf70907e)
-![image](https://github.com/Aditya-Sakpal/GIGA_CHAT_FRONTEND/assets/112710558/5234e850-a2ce-4716-a7d9-c2106fb57172)
-![image](https://github.com/Aditya-Sakpal/GIGA_CHAT_FRONTEND/assets/112710558/b16049cc-9edd-4b98-8c8c-10d43e4a197b)
-![image](https://github.com/Aditya-Sakpal/GIGA_CHAT_FRONTEND/assets/112710558/bdb85833-6480-43e5-8e55-45ea0f7d1d14)
-![image](https://github.com/Aditya-Sakpal/GIGA_CHAT_FRONTEND/assets/112710558/b799c847-f6c9-4e81-a17f-f9549e40ceed)
-![image](https://github.com/Aditya-Sakpal/GIGA_CHAT_FRONTEND/assets/112710558/c7580b6a-c810-40d6-b46f-85871c1f29fd)
+![image](https://github.com/user-attachments/assets/1a34317f-ea0e-4386-8ba1-5b61beaca4cd)
+![image](https://github.com/user-attachments/assets/eae0bbd7-35cc-490b-bbba-df8176f6a53f)
+![image](https://github.com/user-attachments/assets/a70e1287-ae7f-4d3f-a9a7-84019a221526)
+![image](https://github.com/user-attachments/assets/43bf59b4-7f51-495f-929c-6df09f5c4379)
 
 
 ### Installation :
 ```bash
-   git clone https://github.com/Aditya-Sakpal/GIGA_CHAT_FRONTEND.git
+   git clone https://https://github.com/Aditya-Sakpal/AIHUB-ASSESTMENT.git
 ```
 ```bash
-   npm i && cd apps/frontend
-```
-```bash
-   npm i && cd ../../apps/backend
-```
-```bash
-   npm i && cd ../../
+   npm i 
 ```
 ```bash
    npm run dev
 ```
-### Video Demo :
-https://github.com/Aditya-Sakpal/GIGA_CHAT_FRONTEND/assets/112710558/3884b85f-785e-447a-9409-df8dcad906eb
-
