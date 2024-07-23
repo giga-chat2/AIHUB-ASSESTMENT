@@ -39,7 +39,7 @@ const MainSection: React.FC = () => {
                     </div>
                     <div className='w-[70%] h-[100%] flex flex-wrap justify-start items-center text-xs p-[5%] md:p-[3%] text-start md:text-base md:font-thin lg:p-[4%] lg:text-lg overflow-hidden'>
                         <p className='whitespace-normal'>
-                            Effortlessly convert your PDFs to any compatible format with our advanced PDF converter tool.
+                            Easily convert your PDFs to any format.
                         </p>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ const MainSection: React.FC = () => {
                     </div>
                     <div className='w-[70%] h-[100%] flex flex-wrap justify-start items-center text-xs p-[5%] md:p-[3%] text-start md:text-base md:font-thin lg:p-[4%] lg:text-lg overflow-hidden'>
                         <p className='whitespace-normal'>
-                            Reduce PDF file sizes without compromising quality using our efficient PDF compression tool.
+                            Compress PDFs without losing quality.
                         </p>
                     </div>
                 </div>
