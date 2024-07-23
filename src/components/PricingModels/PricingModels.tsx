@@ -38,7 +38,7 @@ const PricingModelCard: React.FC<PricingModelCardProps> = ({ planName, price, pl
                 </div>
                 
                 {/* Plan features section */}
-                <div className='w-[100%] h-[50%] flex flex-col justify-center items-start'>
+                <div className='w-[100%] h-[50%] my-[2%] flex flex-col justify-center items-start'>
                     {planFeatures.map((feature) => (
                         <div className='w-[100%] h-[30%] flex justify-start items-center' key={feature}>
                             <CheckIcon className='text-[#e4342c] !w-[20%] !h-[50%]' />
