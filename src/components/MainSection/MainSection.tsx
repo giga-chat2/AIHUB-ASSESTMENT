@@ -63,7 +63,7 @@ const MainSection: React.FC = () => {
                     </div>
                     <div className='w-[70%] h-[100%] flex flex-wrap justify-start items-center text-xs p-[5%] md:p-[3%] text-start md:text-base md:font-thin lg:p-[4%] lg:text-lg overflow-hidden'>
                         <p className='whitespace-normal'>
-                            Easily modify your PDFs with our intuitive PDF editing tools.
+                            Easily edit your PDFs with our intuitive tools.
                         </p>
                     </div>
                 </div>
