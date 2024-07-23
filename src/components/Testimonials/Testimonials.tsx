@@ -38,7 +38,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ imagePath, name, titl
           </div>
 
           {/* Star rating section */}
-          <div className='w-[100%] h-[20%] flex justify-center items-center'>
+          <div className='w-[100%] h-[20%] mt-[2%] flex justify-center items-center'>
             <StarIcon className='text-[#f7d154]' />
             <StarIcon className='text-[#f7d154]' />
             <StarIcon className='text-[#f7d154]' />
